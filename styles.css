@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #040714;
+  }
+  
+  .banner {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    width: 150px;
+    margin: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #040714;
+    color: white;
+  }
+  
